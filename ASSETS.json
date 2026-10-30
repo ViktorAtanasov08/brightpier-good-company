@@ -1,0 +1,50 @@
+[
+  {
+    "file": "assets/home-hero.jpg",
+    "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 354885,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/home-detail.jpg",
+    "source": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 266831,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/home-work.jpg",
+    "source": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 274337,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/studio-hero.jpg",
+    "source": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 255660,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/studio-detail.jpg",
+    "source": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 265620,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/creative-hero.jpg",
+    "source": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 243899,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/creative-detail.jpg",
+    "source": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1600&q=82&fm=jpg",
+    "bytes": 276905,
+    "purpose": "Illustrative moodboard photo, not actual business work"
+  },
+  {
+    "file": "assets/dm-sans.ttf",
+    "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+    "bytes": 48280,
+    "license": "SIL Open Font License; DM Sans by Colophon Foundry"
+  }
+]

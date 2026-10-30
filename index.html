@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Good Company — a fictional, interactive website concept by BrightPier Studio. Explore websites for appointments, home services and creative businesses.">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Good Company — a BrightPier Studio concept">
+  <meta property="og:description" content="One considered website. Three ways to make it yours. Explore an interactive concept for service businesses.">
+  <meta property="og:type" content="website">
+  <title>Good Company — Spaces worth coming home to</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/dm-sans.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-mode="home">
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-bar">
+  <a class="studio-sign" href="https://brightpierstudio.com/" target="_blank" rel="noopener noreferrer"><span class="tiny-spark" aria-hidden="true">✳</span> A BRIGHTPIER STUDIO CONCEPT <span aria-hidden="true">↗</span></a>
+  <span class="demo-label">Fictional business. Real possibilities.</span>
+  <button class="demo-info" data-open-info>About this demo <span aria-hidden="true">↗</span></button>
+</div>
+<div class="experience-wrap">
+  <div class="experience-inner">
+    <span class="experience-label">EXPLORE A DIFFERENT BUSINESS</span>
+    <div class="experience-options" role="group" aria-label="Choose a business concept">
+      <button data-mode-button="home" aria-pressed="true"><span class="option-dot" aria-hidden="true"></span> Home & property</button>
+      <button data-mode-button="studio" aria-pressed="false"><span class="option-dot" aria-hidden="true"></span> Studio & appointments</button>
+      <button data-mode-button="creative" aria-pressed="false"><span class="option-dot" aria-hidden="true"></span> Creative & craft</button>
+    </div>
+    <button class="share-variant" id="share-variant" aria-label="Copy a link to this business concept">Copy this concept <span aria-hidden="true">↗</span></button>
+  </div>
+</div>
+<header class="header">
+  <a class="wordmark" href="#main" aria-label="Good Company home">good<span class="brand-flower" aria-hidden="true">✳</span><br>company<span class="brand-period">.</span></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#services">What we do</a><a href="#approach">Our approach</a><a href="#work" id="work-nav">The details</a>
+  </nav>
+  <button class="button header-cta" data-open-form><span data-bind="cta">Let’s talk about your home</span><span aria-hidden="true">↗</span></button>
+  <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav"><span class="menu-lines" aria-hidden="true"></span><span class="sr-only">Open menu</span></button>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+  <a href="#services">What we do <span aria-hidden="true">↗</span></a><a href="#approach">Our approach <span aria-hidden="true">↗</span></a><a href="#work">The details <span aria-hidden="true">↗</span></a><button data-open-form>Try the demo <span aria-hidden="true">↗</span></button>
+</nav>
+<main id="main">
+  <section class="hero section-pad" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="small-line" aria-hidden="true"></span><span data-bind="eyebrow">GOOD HOMES. GOOD HANDS.</span></div>
+      <h1 id="hero-title">Good spaces.<br><em>Better living.</em></h1>
+      <p class="hero-description" data-bind="description">A fresh coat. A thoughtful repair. The little things that make a house feel more like you. Home care, handled with care.</p>
+      <div class="hero-actions"><button class="button button-dark" data-open-form><span data-bind="heroCTA">Tell us what you have in mind</span><span aria-hidden="true">↗</span></button><a class="text-link" href="#services">Explore the services <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-note"><span class="note-symbol" aria-hidden="true">✦</span><p data-bind="heroNote">Your space. Your plans.<br>A good place to start.</p></div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image-frame"><img id="hero-image" src="assets/home-hero.jpg" alt="A warm, thoughtfully arranged living space with natural textures" width="1600" height="1200" fetchpriority="high"><div class="photo-tint"></div><span class="photo-mark" aria-hidden="true">g/c</span></div>
+      <div class="image-caption"><span data-bind="imageCaption">Room to feel at home.</span><span>01 / GOOD COMPANY</span></div>
+      <div class="floating-note"><span class="outline-spark" aria-hidden="true">✳</span><span data-bind="imageNote">Good things<br>start here.</span></div>
+    </div>
+  </section>
+  <div class="promise-strip"><span data-bind="promise1">THOUGHTFUL WORK</span><i aria-hidden="true">✳</i><span data-bind="promise2">CLEAR CONVERSATIONS</span><i aria-hidden="true">✳</i><span data-bind="promise3">THE DETAILS MATTER</span><i aria-hidden="true">✳</i><span class="strip-last">GOOD COMPANY, ALWAYS</span></div>
+  <section id="services" class="services section-pad" aria-labelledby="services-heading">
+    <div class="section-heading"><div><p class="eyebrow">01 / WHAT WE DO</p><h2 id="services-heading">A little expertise.<br><em>A lot of care.</em></h2></div><p class="section-intro" data-bind="servicesIntro">From a single room to the finishing touches, choose the kind of help that feels right for your home.</p></div>
+    <div class="services-layout"><div class="service-list" id="service-list"></div><aside class="service-aside"><span class="aside-label">NOT SURE WHERE TO START?</span><h3 data-bind="asideTitle">Tell us about<br>your space.</h3><p data-bind="asideText">We’ll help you find the right next step. No complicated forms. No pressure.</p><button class="circle-link" data-open-form aria-label="Open the demonstration enquiry"><span aria-hidden="true">↗</span></button><span class="aside-footnote">TRY AN ILLUSTRATIVE ENQUIRY</span></aside></div>
+    <p class="section-footnote" data-bind="servicesFootnote">Illustrative services for this fictional concept. Scope and pricing would be agreed with a real provider.</p>
+  </section>
+  <section id="approach" class="approach section-pad" aria-labelledby="approach-heading">
+    <div class="approach-photo"><img id="approach-image" src="assets/home-detail.jpg" alt="Carefully considered interior details and natural light" width="1600" height="1200" loading="lazy"><span class="photo-tag">THE GOOD IS IN THE DETAILS.</span></div>
+    <div class="approach-copy"><p class="eyebrow">02 / HOW WE SEE IT</p><h2 id="approach-heading">Not just a service.<br><em>A good experience.</em></h2><p class="large-body" data-bind="approachLead">The best work starts with listening. To your ideas, your everyday routines, and what would make your space work better.</p><p data-bind="approachBody">We like things straightforward: thoughtful advice, a clear plan and attention to the finish. The kind of care that feels personal, because it is.</p><div class="approach-rule"><span aria-hidden="true">✳</span><p data-bind="approachEnd">Less hassle.<br>More feeling at home.</p></div></div>
+  </section>
+  <section id="work" class="work section-pad" aria-labelledby="work-heading">
+    <div class="section-heading"><div><p class="eyebrow">03 / A CLOSER LOOK</p><h2 id="work-heading">It’s the details<br><em>you come back for.</em></h2></div><p class="section-intro" data-bind="workIntro">Natural light. A pleasing finish. A space that feels just right. A visual direction for what your own project gallery could become.</p></div>
+    <div class="gallery"><button class="gallery-item gallery-large" data-gallery="0"><img id="gallery-image-0" src="assets/home-work.jpg" alt="A bright interior with warm materials and considered finishing details" width="1600" height="1200" loading="lazy"><span class="gallery-overlay"><span data-gallery-caption="0">A considered finish</span><span class="gallery-plus" aria-hidden="true">↗</span></span></button><button class="gallery-item gallery-small" data-gallery="1"><img id="gallery-image-1" src="assets/home-detail.jpg" alt="Quiet architectural details and a thoughtfully arranged room" width="1600" height="1200" loading="lazy"><span class="gallery-overlay"><span data-gallery-caption="1">Room for the everyday</span><span class="gallery-plus" aria-hidden="true">↗</span></span></button></div>
+    <div class="work-caption"><span>MOODBOARD, NOT CLIENT WORK.</span><p>Illustrative photography for a fictional business. A live site would feature your own work, with permission.</p></div>
+  </section>
+  <section class="process section-pad" aria-labelledby="process-heading"><div class="process-intro"><p class="eyebrow">04 / A SIMPLE NEXT STEP</p><h2 id="process-heading">From a first hello<br><em>to a good outcome.</em></h2><p data-bind="processIntro">A clear conversation makes everything easier. Here’s how the journey could work.</p></div><ol class="process-list" id="process-list"></ol></section>
+  <section class="cta-band section-pad" aria-labelledby="cta-heading"><span class="cta-decoration" aria-hidden="true">✳</span><p class="eyebrow">SOMETHING GOOD STARTS WITH A CONVERSATION.</p><h2 id="cta-heading">Let’s make room<br><em>for something better.</em></h2><button class="button button-cream" data-open-form><span data-bind="cta">Let’s talk about your home</span><span aria-hidden="true">↗</span></button><p class="cta-disclaimer">Try the interactive demo. No real enquiry or booking is made.</p><button class="saved-link" id="view-saved" hidden>View your saved demo <span aria-hidden="true">↗</span></button></section>
+  <section class="faq section-pad" aria-labelledby="faq-heading"><div class="faq-heading"><p class="eyebrow">05 / GOOD QUESTIONS</p><h2 id="faq-heading">A few things<br><em>worth knowing.</em></h2></div><div class="faq-list" id="faq-list"></div></section>
+  <section class="studio-section section-pad" id="about-demo"><div><p class="eyebrow">YOUR BUSINESS COULD LIVE HERE.</p><h2>Same care.<br><em>Your own story.</em></h2></div><div class="studio-copy"><p>This is Good Company, a fictional business concept by BrightPier Studio. It shows how a considered website can bring a service business to life.</p><p>Your version would be built around your branding, real services, photography and the way your customers book or get in touch. Already have a booking platform? We can link straight to it.</p><a class="text-link" href="mailto:viktor@brightpierstudio.com?subject=A%20website%20for%20my%20business">Talk to BrightPier Studio <span aria-hidden="true">↗</span></a><small>This link opens your email app. Nothing is sent automatically.</small></div></section>
+</main>
+<footer class="footer section-pad"><a class="footer-wordmark" href="#main">good<span aria-hidden="true">✳</span>company.</a><div class="footer-bottom"><p>GOOD COMPANY IS A FICTIONAL BUSINESS.<br>Website concept, copy and interactions by BrightPier Studio.</p><div><a href="https://brightpierstudio.com/" target="_blank" rel="noopener noreferrer">BrightPier Studio ↗</a><button data-open-info>Demo & privacy</button><a href="#main">Back to top ↑</a></div></div></footer>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<dialog id="enquiry-dialog" class="enquiry-dialog" aria-labelledby="dialog-title">
+  <div class="dialog-inner"><div class="dialog-top"><span class="eyebrow">GOOD COMPANY / DEMO EXPERIENCE</span><button class="close-dialog" aria-label="Close demo">×</button></div>
+  <div id="form-panel"><p class="dialog-step" id="dialog-mode-label">A HOME & PROPERTY ENQUIRY</p><h2 id="dialog-title">What do you<br><em>have in mind?</em></h2><p class="dialog-intro" id="dialog-intro">Try a sample project enquiry. No personal details needed.</p><div class="demo-warning">Demonstration only. Nothing is sent, paid for or booked.</div>
+  <form id="demo-form"><label for="service-select" id="service-label">What can we help with?</label><select id="service-select" name="service" required><option value="">Choose a service</option></select><div class="form-grid"><div><label for="demo-date" id="date-label">Preferred start date</label><input id="demo-date" name="date" type="date" required></div><div><label for="time-select" id="time-label">Project size</label><select id="time-select" name="detail" required></select></div></div><label for="demo-note" id="note-label">A little more detail <span>(optional)</span></label><textarea id="demo-note" name="note" rows="3" maxlength="350" placeholder="Use sample details only. Please don’t enter personal information."></textarea><p class="form-privacy">Saved only in this browser if storage is available. Please use sample details, not personal or sensitive information.</p><button class="button button-dark form-submit" type="submit"><span id="submit-label">Preview my enquiry</span><span aria-hidden="true">↗</span></button></form></div>
+  <div id="success-panel" hidden><div class="success-symbol" aria-hidden="true">✓</div><p class="eyebrow">THIS IS A DEMO, NOT A CONFIRMATION.</p><h2 id="success-title">A good<br><em>starting point.</em></h2><p id="success-message">Your sample enquiry has been saved on this device. No message has been sent.</p><dl class="summary" id="demo-summary"></dl><div class="success-actions"><button class="button button-dark" id="edit-demo">Edit demo <span aria-hidden="true">↗</span></button><button class="text-link" id="delete-demo">Delete saved demo</button></div><p class="form-privacy">A real website could connect this step to your existing booking platform or a secure enquiry system.</p></div></div>
+</dialog>
+<dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><div class="dialog-inner"><div class="dialog-top"><span class="eyebrow">A NOTE FROM BRIGHTPIER</span><button class="close-dialog" aria-label="Close information">×</button></div><h2 id="info-title">A demo,<br><em>by design.</em></h2><p>Good Company is a fictional business. The three concepts demonstrate different layouts, services and customer journeys — they are not real businesses or client projects.</p><h3>What’s real?</h3><p>The responsive design and interactive menus, galleries and demo forms. The BrightPier Studio website and email links are genuine.</p><h3>What’s illustrative?</h3><p>All service descriptions, the business identity, photography and sample availability. There are no real appointments, service prices, customer reviews or performance claims.</p><h3>Your data</h3><p>No analytics, tracking scripts or backend are included. Demo form choices and optional sample notes are stored only in this browser’s local storage. Use “Delete saved demo” to remove them. No form data leaves this site. Hosting providers may maintain their normal server logs.</p><p class="info-credit">Photography: Unsplash, used as illustrative moodboard imagery. Typography: DM Sans and Georgia. Full asset references are included with the source files.</p><a class="text-link" href="https://brightpierstudio.com/" target="_blank" rel="noopener noreferrer">Explore BrightPier Studio <span aria-hidden="true">↗</span></a></div></dialog>
+<dialog id="gallery-dialog" class="gallery-dialog" aria-labelledby="gallery-dialog-title"><button class="close-dialog gallery-close" aria-label="Close image">×</button><figure><img id="lightbox-image" alt="" src="assets/home-work.jpg" width="1600" height="1200"><figcaption id="gallery-dialog-title">Illustrative concept photography</figcaption></figure><div class="lightbox-controls"><button id="gallery-prev" aria-label="Previous image">←</button><span id="gallery-count">1 / 2</span><button id="gallery-next" aria-label="Next image">→</button></div></dialog>
+<noscript><div class="noscript-note">This concept uses JavaScript to switch business types and demonstrate forms. You can still explore the page. For a real enquiry, email viktor@brightpierstudio.com.</div></noscript>
+</body>
+</html>
